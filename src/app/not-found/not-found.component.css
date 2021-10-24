@@ -1,0 +1,24 @@
+.main {
+    background-color:rgb(240, 237, 224);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /*Hide horizontal scrollbar*/
+}
+
+.text{
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.right{
+    font-size: 25px;
+    padding-left: 600px;
+    padding-top: 10px;
+}
+
+.left{
+    padding-left: 600px;
+    padding-top: 10px;
+}

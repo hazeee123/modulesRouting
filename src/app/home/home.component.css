@@ -1,0 +1,111 @@
+.main-background {
+    background-color:rgb(240, 237, 224);
+    height: 92vh;
+    width: 100%;
+    position:relative;
+    background-size: cover;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /*Hide horizontal scrollbar*/
+}
+
+.h1{
+    padding-top: 200px;
+    color: navy;
+    padding-left: 70px;
+    font-size: 430%;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+  }
+  
+  .h2{
+    margin-top: 15px;
+    color:grey;
+    margin-left: 70px;
+    font-size: 190%;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .h3{
+    margin-top: 0px;
+    color:rgb(182, 180, 180);
+    margin-left: 70px;
+    font-size: 130%;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .btn-success{
+    width: 200px;
+    height: 55px;
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-left: 70px;
+    border-radius: 20px;
+  }
+  
+  .btn-light{
+    width: 200px;
+    height: 55px;
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    color:green;
+    border-color: green;
+  }
+
+.main-image{
+    top: 40px;
+    left: 1000px;
+    position: absolute;
+    width: 780px;
+    height: 730px;
+}
+
+.social-links {
+    width: 50px;
+    padding: 8px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: #1f2937;
+  }
+
+.social-links a {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+  
+    font-size: 0;
+  
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+  
+    transition-property: background-color;
+    transition-duration: 200ms;
+}
+
+.social-links a:not(:last-child) {
+    margin-bottom: 8px;
+  }
+  
+  .social-links a:hover,
+  .social-links a:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .social-links .facebook {
+    background-image: url('https://res.cloudinary.com/arnellebalane/image/upload/v1632525392/html-css-workshop/icon-facebook_xosefo.svg');
+  }
+  
+  .social-links .twitter {
+    background-image: url('https://res.cloudinary.com/arnellebalane/image/upload/v1632525392/html-css-workshop/icon-twitter_ucgjyy.svg');
+  }
+  
+  .social-links .instagram {
+    background-image: url('https://res.cloudinary.com/arnellebalane/image/upload/v1632525393/html-css-workshop/icon-instagram_jbaduh.svg');
+  }
